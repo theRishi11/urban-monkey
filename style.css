@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner>.brandname>h1{
+    font-size: 165px;
+    color: white;
+}
+.banner>.menu{
+    background: black;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner>.menu>a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+/* cap and hoodie*/
+.arrivals{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arrivals>.row{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 20px;
+}
+.arrivals .card{
+    flex: 1;
+    gap: 10px;
+    
+}
+.arrivals .card>.price{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.arrivals .card>.price>h1{
+    flex: 1;
+}
+
+
+.arrivals .card>.card-footer{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.arrivals>.row>.card>.btn{
+    background: black;
+    color: white;
+    flex: 1;
+    width: 100%;
+}
+.arrivals .card>button>p{
+    font-size: 23px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.arrivals .card>button>span{
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: flex-end;
+}
+.arrivals>button{
+    width: 8%;
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.imgsection{
+    margin-top: 20px;
+    background: black;
+    display: flex;
+    height: 730px;
+    justify-content: center;
+    align-items: center;
+}
+.arrivals>button{
+    width: 8%;
+    background:black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+    
+}
+
+.arrivals .card>.size{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-top: 5px;
+    height: 20px;
+}
+.arrivals .card>.size>span{
+    margin-left: 5px;
+    background: #e1e1e1;
+    padding: 5px 5px 0px 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+/*shop section*/
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    background: black;
+}
+.category>.cat{
+    flex: 5;
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+    background: black;
+}
+.category>.cat>.card{
+    position: relative;
+    margin: 3px;
+}
+.category>.cat>.card>img{
+    border-radius: 10px;
+    height: 450px;
+}
+
+.category>.cat>.card>.name{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 232px;
+    height: 30px;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.category>.cat>.card>.name>h2{
+    color: white; 
+    font-size: 27px;
+    font-weight: bolder;
+}
+.category>.cat>.card>.shop{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 8px 13px;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    background: white;
+   
+}
+/*actor*/
+.category>.textcat{
+    width: 100%;
+    flex:1;
+}
+.category>.actor{
+    display: flex;
+    height: 400px;
+    flex: 8;
+    width: 100%;
+    gap: 5px;
+}
+.textcat>h1{
+    color:white;
+    margin-left: 30px;
+}
+.category>.actor .card{
+    flex: 1;
+    margin: 10px 10px 10px 10px;
+}
+.actor>.card>img{
+    border-radius: 10px;
+}
+/*last*/
+.last{
+    background: black;
+    height:400px;
+    color: white;
+    height: 230%;
+}
+.last>.names{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.names>.row1{
+    width: 50%;
+    margin-left: 10px;
+    gap: 5px;
+    border-image-repeat: repeat;
+    font-weight: 900px;
+    line-height: 30px;
+}
+.names>.row2{
+    width: 50%;
+    margin-left: 10px;
+    gap: 5px;
+    border-image-repeat: repeat;
+    font-weight: 900px;
+    line-height: 30px;
+    margin-bottom: 25%;
+}
+.names>.row3{
+    width: 50%;
+    margin-left: 10px;
+    gap: 5px;
+    border-image-repeat: repeat;
+    font-weight: 900px;
+    line-height: 35px;
+    margin-bottom: 25%;
+}
+.names>.row4{
+    width: 50%;
+    margin-left: 50px;
+    gap: 5px;
+    border-image-repeat: repeat;
+    font-weight: 900px;
+    line-height: 50px;
+    margin-bottom: 35%;
+}
+.row4>.col>.buton{
+    color: black;
+    font-weight: bolder;
+    width: 80%;
+}
+.row1>h2{
+    padding-bottom: 8%;
+}
+.row2>h2{
+    padding-bottom: 8%;
+}
+.row3>h2{
+    padding-bottom: 8%;
+}
+.row4>h2{
+    padding-bottom: 10%;
+}
+.footertext{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    color: #fff;
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
+.insta{
+    margin-top: 10%;
+}
+.fb{
+    margin-top: 10%;
+}
+.pin{
+    margin-top: 10%;
+}
+.yt{
+    margin-top: 10%;
+}
